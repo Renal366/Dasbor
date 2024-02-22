@@ -1,0 +1,32 @@
+def hitung_umur(tahun_lahir):
+    tahun_sekarang = 2024
+    umur = tahun_sekarang - tahun_lahir
+    return umur
+
+def hitung_kembalian(total_belanja, uang_dibayarkan):
+    kembalian = uang_dibayarkan - total_belanja 
+    return kembalian
+
+def hitung_total_pembayaran(total_belanja, dapat_diskon):
+    if total_belanja > 80000:
+      dapat_diskon = 10000
+  
+    else : dapat_diskon = 10000 
+    return total_belanja + dapat_diskon
+  
+def hitung_gaji(gaji_pokok, jumlah_hari_kerja, jumlah_jam_lembur):
+    uang_transport_harian = 100000
+    uang_makan = 50000
+    upah_lembur_per_jam = [100000, 150000]
+
+    total_transport = uang_transport_harian * jumlah_hari_kerja
+    total_makan = uang_makan * jumlah_hari_kerja
+    total_upah_lembur = 0
+    for i in range(jumlah_jam_lembur):
+        if i < 2:
+            total_upah_lembur += upah_lembur_per_jam[0]
+        else:
+            total_upah_lembur += upah_lembur_per_jam[1]
+
+    honor = gaji_pokok + total_transport + total_makan + total_upah_lembur
+    return honor
