@@ -1,0 +1,6 @@
+masukan_tahun = int(input("lebeutken tahun:"))
+
+if masukan_tahun %4== 0 :
+    print("%i nyaeta tahun kabisat " % masukan_tahun)
+else:
+    print("%i sanes tahun kabisat " % masukan_tahun)
