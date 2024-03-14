@@ -1,0 +1,11 @@
+bilangan1 = float(input("Masukkan bilangan pertama: "))
+bilangan2 = float(input("Masukkan bilangan kedua: "))
+
+
+if bilangan1 > bilangan2:
+    bilangan_lebih_besar = bilangan1
+else:
+    bilangan_lebih_besar = bilangan2
+
+
+print("Bilangan lebih besar adalah:",) 
