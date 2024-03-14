@@ -1,4 +1,4 @@
-print("Program Menentukan Tipe Bilangan")
+print("Menentukan Bilangan positif,negatif atau nol")
 bilpositif = int(input("Masukkan sebuah bilangan positif: "))
 bilnegatif = int(input("masukan bilangan negatif: "))
 bilnol = int(input("masukan nol:"))
